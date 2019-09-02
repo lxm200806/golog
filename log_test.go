@@ -1,11 +1,11 @@
 package golog
 
 import (
-	"fmt"
+	_ "fmt"
 	"strconv"
 	"strings"
 	"testing"
-	"time"
+	_ "time"
 )
 
 func TestFileCreate(t *testing.T) {
